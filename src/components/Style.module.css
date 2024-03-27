@@ -1,0 +1,96 @@
+.FullDiv{
+    background-color: aqua;
+    display: flex;
+    height: 500px;
+
+}
+.Right{
+  background-color: azure;
+    flex: 7;
+    overflow: auto;
+}
+.leftDiv{
+    background-color: blue;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.CardDiv{
+    width: 85%;
+}
+.App{
+    height: 800px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.leftSmile{
+    font-size: 120px;
+
+}
+.leftText{
+    font-size: 64px;
+    color: beige;
+}
+.FullCountDiv{
+    display: flex;
+    gap: 18px;
+}
+.Count{
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border: 2px solid rgb(23, 23, 172);
+    
+}
+.TextNumber{
+    font-size: 20px;
+    
+}
+.joke h1{
+    font-size: 18px;
+}
+.JokesFullDiv{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 40px;
+    border-bottom: 2px solid gray;
+    
+}
+.Smile{
+    font-size: 50px;
+}
+.test{
+    display: flex;
+    gap: 30px;
+}
+.test ul {
+    list-style: none;
+
+}
+.FullDivPaginate{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.LiPaginate {
+    list-style: none;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 800;
+
+}
+.ActivePaginate{
+    color: rgb(180, 4, 4);
+}
