@@ -53,14 +53,14 @@ function Card({number}) {
 
 
   }
-   
+  // eslint-disable
+
 useEffect(()=>{
 
   ChangeData()
 
 
-},[scoreId]) // eslint-disable-next-line
-
+},[scoreId]) 
   
 useEffect(()=>{
   getDadJoke(number)

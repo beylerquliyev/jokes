@@ -20,10 +20,12 @@ function PaginationComponent({GetNumber}) {
        
   
     }
+    // eslint-disable
+
 useEffect(()=>{
     GetNumber(Choose)
 
-},[Choose]) // eslint-disable-next-line
+},[Choose]) 
 
     return (
       <ReactPaginate

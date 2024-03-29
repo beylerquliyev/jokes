@@ -18,7 +18,7 @@ function Jokes({jokes,GetScore,id,score3}) {
 
 
   }
-
+// eslint-disable
   useEffect(()=>{
     let obj={
       score,
@@ -27,7 +27,7 @@ function Jokes({jokes,GetScore,id,score3}) {
     }
     GetScore(obj)
 
-  },[score]) // eslint-disable-next-line
+  },[score]) 
 
 
 
