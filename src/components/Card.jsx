@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Card({number}) {
   const[data,SetData]=useState([])
   const[scoreId,SetscoreId]=useState({})
-  async function getDadJoke() {
+  async function getDadJoke(number) {
     try {
       const response = await fetch(`https://icanhazdadjoke.com/search?limit=10&page=${number}`, {
         headers: {
@@ -53,15 +53,17 @@ function Card({number}) {
 
 
   }
+   
 useEffect(()=>{
+
   ChangeData()
 
 
-},[scoreId])
+},[scoreId]) // eslint-disable-next-line
 
   
 useEffect(()=>{
-  getDadJoke()
+  getDadJoke(number)
 
 },[number])
 

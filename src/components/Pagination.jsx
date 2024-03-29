@@ -23,12 +23,12 @@ function PaginationComponent({GetNumber}) {
 useEffect(()=>{
     GetNumber(Choose)
 
-},[Choose])
+},[Choose]) // eslint-disable-next-line
 
     return (
       <ReactPaginate
         pageCount={40}
-        className
+       
         previousLabel={'<'}
         nextLabel={'>'}
         onClick={choosePage}
